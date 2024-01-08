@@ -1,5 +1,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Publishers
+%%
+%% These macros are only to be used in the "publisher" tag.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{ publisher:CUP                 = "Cambridge University Press" }
+@string{ publisher:OUP                 = "Oxford University Press" }
+@string{ publisher:HUP                 = "Harvard University Press" }
+@string{ publisher:MIT                 = "MIT Press" }
+@string{ publisher:Springer            = "Springer" }
+@string{ publisher:ACM                 = "Association for Computing Machinery" }
+@string{ publisher:Elsevier            = "Elsevier" }
+@string{ publisher:Dagstuhl            = "Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik" }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% A
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -8,7 +25,7 @@
   author          = {Appel, Andrew W.},
   year            = {1992},
   title           = {{Compiling with Continuations}},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 
@@ -29,7 +46,7 @@
   title           = {Copatterns: Programming Infinite Structures by Observations},
   url             = {https://doi.org/10.1145/2480359.2429075},
   isbn            = {9781450318327},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   booktitle       = {Proceedings of the 40th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
   pages           = {27--38},
@@ -47,7 +64,7 @@
   location        = {Boston, Massachusetts, USA},
   pages           = {197--208},
   numpages        = {12},
-  publisher       = {ACM},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA}
 }
 
@@ -57,7 +74,7 @@
   title           = {Compiling pattern matching},
   editor          = {Jouannaud, Jean-Pierre},
   booktitle       = {Functional Programming Languages and Computer Architecture},
-  publisher       = {Springer Berlin Heidelberg},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {368--381},
   isbn            = {978-3-540-39677-2}
@@ -71,14 +88,14 @@
   volume          = {50},
   number          = {2},
   pages           = {510--530},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 @book{Antoniou1996,
   author         = {Antoniou, Grigoris},
   year           = {1997},
   title          = {Nonmonotonic Reasoning},
-  publisher      = {MIT Press}
+  publisher      = publisher:MIT
 }
 
 @article{Antoniou1999tutorial,
@@ -89,7 +106,8 @@
   volume         = {31},
   number         = {4},
   pages          = {337--359},
-  publisher      = {ACM New York, NY, USA}
+  publisher      = publisher:ACM,
+  address        = {New York, NY, USA}
 }
 
 
@@ -99,7 +117,7 @@
   title          = {Minimal classical logic and control operators},
   editor         = {Baeten, Jos C. M. and Lenstra, Jan Karel and Parrow, Joachim and Woeginger, Gerhard J.},
   booktitle      = {Automata, Languages and Programming},
-  publisher      = {Springer},
+  publisher      = publisher:Springer,
   pages          = {871--885},
 }
 
@@ -107,7 +125,7 @@
   author         = {Ariola, Zena M. and Maraist, John and Odersky, Martin and Felleisen, Matthias and Wadler, Philip},
   year           = {1995},
   title          = {A Call-by-Need Lambda Calculus},
-  publisher      = {Association for Computing Machinery},
+  publisher      = publisher:ACM,
   address        = {New York, NY, USA},
   doi            = {10.1145/199448.199507},
   booktitle      = {Proceedings of the 22nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
@@ -143,7 +161,7 @@
   pages           = {2:1--2:44},
   articleno       = {2},
   acmid           = {2071370},
-  publisher       = {ACM},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
 }
 
@@ -151,7 +169,7 @@
   author          = {Baader, Franz and Nipkow, Tobias},
   year            = {1998},
   title           = {Term rewriting and all that},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 @article{Burton1993pattern,
@@ -162,7 +180,7 @@
   volume          = {3},
   number          = {2},
   pages           = {171--190},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 
@@ -182,7 +200,7 @@
   volume          = {1},
   number          = {2},
   pages           = {125--154},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 @book{Barendregt1981,
@@ -190,7 +208,7 @@
   year            = {1981},
   title           = {The Lambda Calculus: Its Syntax and Semantics},
 	address         = {New York, N.Y.},
-	publisher       = {Elsevier Science Pub. Co.}
+	publisher       = publisher:Elsevier
 }
 
 @inproceedings{Boquist1996grin,
@@ -222,7 +240,7 @@
   title           = {Type Theory Based on Dependent Inductive and Coinductive Types},
   month           = {7},
   isbn            = {9781450343916},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/2933575.2934514},
   doi             = {10.1145/2933575.2934514},
@@ -263,7 +281,7 @@
   title           = {Finally tagless, partially evaluated},
   booktitle       = {Proceedings of the Asian Symposium on Programming Languages and Systems},
   pages           = {222--238},
-  publisher       = {Springer LNCS 4807},
+  publisher       = publisher:Springer,
   doi             = {10.1007/978-3-540-76637-7_15},
 }
 
@@ -283,7 +301,7 @@
   year            = {2000},
   title           = {The Duality of Computation},
   url             = {https://doi.org/10.1145/357766.351262},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   booktitle       = {Proceedings of the Fifth ACM SIGPLAN International Conference on Functional Programming},
   pages           = {233--243},
@@ -309,7 +327,7 @@
   title           = {Session Types as Intuitionistic Linear Propositions},
   url             = {https://doi.org/10.1007/978-3-642-15375-4_16},
   isbn            = {3642153747},
-  publisher       = {Springer},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   booktitle       = {Proceedings of the 21st International Conference on Concurrency Theory},
   pages           = {222--236},
@@ -322,7 +340,7 @@
   year            = {1990},
   title           = {Object-oriented programming versus abstract data types},
   booktitle       = {Proceedings of the REX Workshop / School on the Foundations of Object-Oriented Languages},
-  publisher       = {Springer},
+  publisher       = publisher:Springer,
   pages           = {151--178}
 }
 
@@ -333,7 +351,7 @@
   booktitle       = {Proceedings of the Conference on Object-Oriented Programming, Systems, Languages and Applications},
   pages           = {557--572},
   address         = {New York},
-  publisher       = {ACM},
+  publisher       = publisher:ACM,
   location        = {Orlando},
   numpages        = {16},
 }
@@ -351,7 +369,7 @@
   title           = {Overlapping and Order-Independent Patterns},
   editor          = {Shao, Zhong},
   booktitle       = {Programming Languages and Systems},
-  publisher       = {Springer Berlin Heidelberg},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {87--106},
   isbn            = {978-3-642-54833-8}
@@ -363,7 +381,7 @@
   title           = {Pattern matching without K},
   booktitle       = {International Conference on Functional Programming},
   address         = {New York},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   pages           = {257--268},
   url             = {https://doi.org/10.1145/2628136.2628139},
   doi             = {10.1145/2628136.2628139},
@@ -382,7 +400,7 @@
   title           = {Elaborating dependent (co) pattern matching: No pattern left behind},
   journal         = {Journal of Functional Programming},
   volume          = {30},
-  publisher       = {Cambridge University Press},
+  publisher       = publisher:CUP,
   DOI             = {10.1017/S0956796819000182}
 }
 
@@ -405,8 +423,7 @@
   title           = {Pattern matching with dependent types},
   booktitle       = {Informal proceedings of Logical Frameworks},
   volume          = {92},
-  pages           = {66--79},
-  organization    = {Citeseer}
+  pages           = {66--79}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -436,7 +453,7 @@
   series          = {LIPIcs},
   volume          = {195},
   pages           = {1--32},
-  publisher       = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik}
+  publisher       = publisher:Dagstuhl
 }
 
 @inproceedings{Downen2014duality,
@@ -444,7 +461,7 @@
   year            = {2014},
   title           = {The Duality of Construction},
   url             = {https://doi.org/10.1007/978-3-642-54833-8_14},
-  publisher       = {Springer-Verlag},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   booktitle       = {Proceedings of the 23rd European Symposium on Programming Languages and Systems - Volume 8410},
   series          = {ESOP '14},
@@ -466,7 +483,7 @@
   title           = {A tutorial on computational classical logic and the sequent calculus},
   url             = {https://doi.org/10.1017/S0956796818000023},
   journal         = {Journal of Functional Programming},
-  publisher       = {Cambridge University Press},
+  publisher       = publisher:CUP,
   volume          = {28}
 }
 
@@ -481,7 +498,7 @@
   ISSN            = {1868-8969},
   volume          = {119},
   editor          = {Dan Ghica and Achim Jung},
-  publisher       = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  publisher       = publisher:Dagstuhl,
   address         = {Dagstuhl, Germany},
   url             = {http://drops.dagstuhl.de/opus/volltexte/2018/9688},
   urn             = {urn:nbn:de:0030-drops-96886},
@@ -546,7 +563,7 @@
   pages           = {1--12},
   numpages        = {12},
   acmid           = {1929503},
-  publisher       = {ACM},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA}
 }
 
@@ -554,7 +571,7 @@
   author          = {Dummett, Michael},
   year            = {1991},
   title           = {The logical basis of metaphysics},
-  publisher       = {Harvard university press}
+  publisher       = publisher:HUP
 }
 
 @phdthesis{Delaware2013phd,
@@ -569,7 +586,7 @@
   year            = {2013},
   title           = {Meta-Theory \`{a} La Carte},
   isbn            = {9781450318327},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/2429069.2429094},
   doi             = {10.1145/2429069.2429094},
@@ -584,7 +601,7 @@
   author          = {Delaware, Benjamin and Keuchel, Steven and Schrijvers, Tom and Oliveira, Bruno C.d.S.},
   year            = {2013},
   title           = {Modular Monadic Meta-Theory},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   volume          = {48},
   number          = {9},
@@ -611,7 +628,7 @@
   volume          = {40},
   number          = {2},
   pages           = {481--506},
-  publisher       = {Springer}
+  publisher       = publisher:Springer
 }
 
 @inproceedings{Eisenberg2012Singletons,
@@ -619,7 +636,7 @@
   year            = {2012},
   title           = {Dependently Typed Programming with Singletons},
   isbn            = {9781450315746},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/2364506.2364522},
   doi             = {10.1145/2364506.2364522},
@@ -642,7 +659,7 @@
   year            = {2021},
   title           = {An Existential Crisis Resolved: Type Inference for First-Class Existential Types},
   issue_date      = {August 2021},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   volume          = {5},
   number          = {ICFP},
@@ -673,14 +690,14 @@
   year            = {2001},
   title           = {{How to Design Programs. An Introduction to Computing and Programming}},
   address         = {Cambridge, Massachusetts London, England},
-  publisher       = {The MIT Press},
+  publisher       = publisher:MIT
 }
 
 @book{Felleisen2009semantics,
   author          = {Felleisen, Matthias and Findler, Robert Bruce and Flatt, Matthew},
   year            = {2009},
   title           = {Semantics Engineering with PLT Redex},
-  publisher       = {MIT Press}
+  publisher       = publisher:MIT
 }
 
 @article{Felleisen1992,
@@ -691,7 +708,7 @@
   volume          = {103},
   number          = {2},
   pages           = {235--271},
-  publisher       = {Elsevier}
+  publisher       = publisher:Elsevier
 }
 
 @inproceedings{Faehndrich1997,
@@ -699,7 +716,7 @@
   year            = {1997},
   title           = {Statically Checkable Pattern Abstractions},
   isbn            = {0897919181},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/258948.258957},
   doi             = {10.1145/258948.258957},
@@ -714,7 +731,7 @@
   author          = {Flanagan, Cormac and Sabry, Amr and Duba, Bruce F. and Felleisen, Matthias},
   year            = {1993},
   title           = {The Essence of Compiling with Continuations},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   booktitle       = {Proceedings of the ACM SIGPLAN 1993 Conference on Programming Language Design and Implementation},
   pages           = {237--247},
@@ -728,7 +745,7 @@
   year            = {2020},
   title           = {Coq \`{a} La Carte: A Practical Approach to Modular Syntax with Binders},
   isbn            = {9781450370974},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/3372885.3373817},
   doi             = {10.1145/3372885.3373817},
@@ -789,7 +806,7 @@
   url             = {https://doi.org/10.1017/S0956796821000113},
   volume          = {31},
   journal         = {Journal of Functional Programming},
-  publisher       = {Cambridge University Press},
+  publisher       = publisher:CUP,
 }
 
 @inproceedings{Groote1994LambdaMu,
@@ -797,7 +814,7 @@
   year            = {1994},
   title           = {On the Relation between the {$\lambda\mu$}-Calculus and the Syntactic Theory of Sequential Control},
   url             = {https://doi.org/10.1007/3-540-58216-9_27},
-  publisher       = {Springer-Verlag},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   booktitle       = {Proceedings of the 5th International Conference on Logic Programming and Automated Reasoning},
   pages           = {31--43},
@@ -833,7 +850,7 @@
   DOI             = {10.1017/S096012950100336X},
   number          = {3},
   journal         = {Mathematical Structures in Computer Science},
-  publisher       = {Cambridge University Press},
+  publisher       = publisher:CUP,
   pages           = {301--506}
 }
 
@@ -851,7 +868,8 @@
   title           = {An application of co-inductive types in Coq: Verification of the alternating bit protocol},
   editor          = {Berardi, Stefano and Coppo, Mario},
   booktitle       = {Types for Proofs and Programs},
-  publisher       = {Springer Berlin Heidelberg}
+  publisher       = publisher:Springer,
+  address         = {Berlin Heidelberg}
 }
 
 @phdthesis{Gimenez1996calcul,
@@ -876,7 +894,7 @@
   author          = {Griffin, Timothy G.},
   year            = {1989},
   title           = {A Formulae-as-Type Notion of Control},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   doi             = {10.1145/96709.96714},
   booktitle       = {{Proceedings of the 17th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages}},
@@ -890,7 +908,7 @@
   year            = {2020},
   title           = {Lower Your Guards: A Compositional Pattern-Match Coverage Checker},
   issue_date      = {August 2020},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   volume          = {4},
   number          = {ICFP},
@@ -915,7 +933,7 @@
   title           = {Induction Is Not Derivable in Second Order Dependent Type Theory},
   editor          = {Abramsky, Samson},
   booktitle       = {Typed Lambda Calculi and Applications},
-  publisher       = {Springer Berlin Heidelberg},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {166--181},
   isbn            = {978-3-540-45413-7}
@@ -966,7 +984,7 @@
   author          = {Hindley, James Roger and Seldin, Jonathan Paul},
   year            = {2008},
   title           = {Lambda-Calculus and Combinators an Introduction},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 @inproceedings{HerbelinGhilezan2008CBNDelimitedCont,
@@ -974,7 +992,7 @@
   year            = {2008},
   title           = {An Approach to Call-by-Name Delimited Continuations},
   url             = {https://doi.org/10.1145/1328438.1328484},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   booktitle       = {Proceedings of the 35th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
   pages           = {383--394},
@@ -999,7 +1017,7 @@
   volume          = {8},
   number          = {6},
   pages           = {629--650},
-  publisher       = {Elsevier}
+  publisher       = publisher:Elsevier
 }
 
 @inproceedings{Hofmann1994groupoid,
@@ -1016,7 +1034,7 @@
   year            = {1997},
   title           = {Syntax and semantics of dependent types},
   booktitle       = {Extensional Constructs in Intensional Type Theory},
-  publisher       = {Springer London},
+  publisher       = publisher:Springer,
   address         = {London},
   pages           = {13--54},
   isbn            = {978-1-4471-0963-1},
@@ -1042,7 +1060,7 @@
   volume          = {104},
   number          = {1},
   pages           = {485--494},
-  publisher       = {Springer}
+  publisher       = publisher:Springer
 }
 
 @article{Hughes1989functional,
@@ -1053,7 +1071,7 @@
   volume          = {32},
   number          = {2},
   pages           = {98--107},
-  publisher       = {Oxford University Press}
+  publisher       = publisher:OUP
 }
 
 @inproceedings{Huang2023,
@@ -1062,7 +1080,7 @@
   title           = {Defunctionalization with Dependent Types},
   booktitle       = {Proceedings of the Conference on Programming Language Design and Implementation},
   address         = {New York},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   location        = {Orlando, Florida, USA},
   note            = {To be published at PLDI'23}
 }
@@ -1077,7 +1095,7 @@
   numpages        = {13},
   url             = {http://dx.doi.org/10.1007/BFb0014058},
   acmid           = {671442},
-  publisher       = {Springer},
+  publisher       = publisher:Springer,
   address         = {London},
 }
 
@@ -1103,7 +1121,8 @@
   volume          = {23},
   number          = {3},
   pages           = {396--450},
-  publisher       = {ACM New York, NY, USA}
+  publisher       = publisher:ACM,
+  address         = {New York, NY, USA}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1114,47 +1133,47 @@
 
 @article{Jaskowski1934,
   author          = {Ja{\'s}kowski, Stanis{\l}aw},
-  title           = {On the Rules of Suppositions in Formal Logic},
   year            = {1934},
+  title           = {On the Rules of Suppositions in Formal Logic},
   journal         = {Studia Logica},
   volume          = {1},
   pages           = {5--32},
 }
 
 @article{Jay2009,
-  title           = {First-class patterns},
   author          = {Jay, Barry and Kesner, Delia},
+  year            = {2009},
+  title           = {First-class patterns},
   journal         = {Journal of Functional Programming},
   volume          = {19},
   number          = {2},
   pages           = {191--225},
-  year            = {2009},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 @book{Jay2009Book,
-  title           = {Pattern Calculus: Computing with Functions and Structures},
   author          = {Jay, Barry},
   year            = {2009},
-  publisher       = {Springer Science \& Business Media}
+  title           = {Pattern Calculus: Computing with Functions and Structures},
+  publisher       = publisher:Springer
 }
 
 @inproceedings{Johnson1985,
   author          = {Johnsson, Thomas},
-  editor          = {Jouannaud, Jean-Pierre},
-  title           = {Lambda lifting: Transforming programs to recursive equations},
-  booktitle       = {Functional Programming Languages and Computer Architecture},
   year            = {1985},
-  publisher       = {Springer Berlin Heidelberg},
+  title           = {Lambda lifting: Transforming programs to recursive equations},
+  editor          = {Jouannaud, Jean-Pierre},
+  booktitle       = {Functional Programming Languages and Computer Architecture},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {190--203},
   isbn            = {978-3-540-39677-2}
 }
 @incollection{Jacobs1995classes,
   author          = {Jacobs, Bart},
-  title           = {Objects and classes, coalgebraically},
-  publisher       = {Springer-Verlag},
   year            = {1995},
+  title           = {Objects and classes, coalgebraically},
+  publisher       = publisher:Springer,
   pages           = {83--103},
   booktitle       = {Object Orientation with Parallelism and Persistence},
   location        = {USA}
@@ -1162,10 +1181,10 @@
 
 @inproceedings{Johann2004freeTheoremsSeq,
   author          = {Johann, Patricia and Voigtl\"{a}nder, Janis},
-  title           = {Free Theorems in the Presence of Seq},
   year            = {2004},
+  title           = {Free Theorems in the Presence of Seq},
   isbn            = {158113729X},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/964001.964010},
   doi             = {10.1145/964001.964010},
@@ -1188,7 +1207,7 @@
   DOI             = {10.1017/bsl.2019.21},
   number          = {3},
   journal         = {The Bulletin of Symbolic Logic},
-  publisher       = {Cambridge University Press},
+  publisher       = publisher:CUP,
   author          = {Klev, Ansten},
   year            = {2019},
   pages           = {333--359}
@@ -1196,25 +1215,25 @@
 
 @inproceedings{Krishnamurthi1998,
   author          = {Krishnamurthi, Shriram and Felleisen, Matthias and Friedman, Daniel P.},
+  year            = {1998},
   title           = {Synthesizing Object-Oriented and Functional Design to Promote Re-Use},
   booktitle       = {Proceedings of the 12th European Conference on Object-Oriented Programming},
   series          = {ECCOP '98},
-  year            = {1998},
   isbn            = {3-540-64737-6},
   pages           = {91--113},
   numpages        = {23},
   url             = {http://dl.acm.org/citation.cfm?id=646155.679709},
   acmid           = {679709},
-  publisher       = {Springer-Verlag},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
 }
 
 @inproceedings{Krishnaswami2009,
   author          = {Krishnaswami, Neelakantan R.},
-  title           = {Focusing on Pattern Matching},
   year            = {2009},
+  title           = {Focusing on Pattern Matching},
   isbn            = {9781605583792},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/1480881.1480927},
   doi             = {10.1145/1480881.1480927},
@@ -1228,11 +1247,11 @@
 
 @inproceedings{Kounalis1991,
   author          = {Kounalis, E. and Lugiez, D.},
-  editor          = {Abramsky, S. and Maibaum, T. S. E.},
-  title           = {Compilation of pattern matching with associative-commutative functions},
-  booktitle       = {TAPSOFT '91},
   year            = {1991},
-  publisher       = {Springer Berlin Heidelberg},
+  title           = {Compilation of pattern matching with associative-commutative functions},
+  editor          = {Abramsky, S. and Maibaum, T. S. E.},
+  booktitle       = {TAPSOFT '91},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {57--73},
   isbn            = {978-3-540-46563-8}
@@ -1240,10 +1259,10 @@
 
 @inproceedings{Karachalias2015,
   author          = {Karachalias, Georgios and Schrijvers, Tom and Vytiniotis, Dimitrios and Jones, Simon Peyton},
-  title           = {GADTs Meet Their Match: Pattern-Matching Warnings That Account for GADTs, Guards, and Laziness},
   year            = {2015},
+  title           = {GADTs Meet Their Match: Pattern-Matching Warnings That Account for GADTs, Guards, and Laziness},
   isbn            = {9781450336697},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/2784731.2784748},
   doi             = {10.1145/2784731.2784748},
@@ -1256,25 +1275,25 @@
 
 
 @article{Klop1991,
+  author          = {Jan Willem Klop and Aart Middeldorp},
+  year            = {1991},
   title           = {Sequentiality in orthogonal term rewriting systems},
   journal         = {Journal of Symbolic Computation},
   volume          = {12},
   number          = {2},
   pages           = {161--195},
-  year            = {1991},
   issn            = {0747-7171},
   doi             = {https://doi.org/10.1016/S0747-7171(08)80124-1},
-  url             = {https://www.sciencedirect.com/science/article/pii/S0747717108801241},
-  author          = {Jan Willem Klop and Aart Middeldorp},
+  url             = {https://www.sciencedirect.com/science/article/pii/S0747717108801241}
 }
 
 @inproceedings{Kirchner2007,
   author          = {Kirchner, Claude and Kopetz, Radu and Moreau, Pierre-Etienne},
-  editor          = {De Nicola, Rocco},
-  title           = {Anti-pattern Matching},
-  booktitle       = {Programming Languages and Systems},
   year            = {2007},
-  publisher       = {Springer Berlin Heidelberg},
+  title           = {Anti-pattern Matching},
+  editor          = {De Nicola, Rocco},
+  booktitle       = {Programming Languages and Systems},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {110--124},
   isbn            = {978-3-540-71316-6}
@@ -1282,57 +1301,57 @@
 
 @inproceedings{Kirchner2008,
   author          = {Kirchner, Claude and Kopetz, Radu and Moreau, Pierre-Etienne},
-  editor          = {Mart{\'i}n-Vide, Carlos and Otto, Friedrich and Fernau, Henning},
-  title           = {Anti-pattern Matching Modulo},
-  booktitle       = {Language and Automata Theory and Applications},
   year            = {2008},
-  publisher       = {Springer Berlin Heidelberg},
+  title           = {Anti-pattern Matching Modulo},
+  editor          = {Mart{\'i}n-Vide, Carlos and Otto, Friedrich and Fernau, Henning},
+  booktitle       = {Language and Automata Theory and Applications},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {275--286},
   isbn            = {978-3-540-88282-4}
 }
 
 @article{Kirchner2010,
+  author          = {Horatiu Cirstea and Claude Kirchner and Radu Kopetz and Pierre-Etienne Moreau},
+  year            = {2010},
   title           = {Anti-patterns for rule-based languages},
   journal         = {Journal of Symbolic Computation},
   volume          = {45},
   number          = {5},
   pages           = {523--550},
-  year            = {2010},
   note            = {Symbolic Computation in Software Science},
   issn            = {0747-7171},
   doi             = {https://doi.org/10.1016/j.jsc.2010.01.007},
   url             = {https://www.sciencedirect.com/science/article/pii/S0747717110000155},
-  author          = {Horatiu Cirstea and Claude Kirchner and Radu Kopetz and Pierre-Etienne Moreau},
 }
 
 @article{Kesner1996,
-  title           = {A typed pattern calculus},
   author          = {Kesner, Delia and Puel, Laurence and Tannen, Val},
+  year            = {1996},
+  title           = {A typed pattern calculus},
   journal         = {Information and Computation},
   volume          = {124},
   number          = {1},
   pages           = {32--61},
-  year            = {1996},
-  publisher       = {Elsevier}
+  publisher       = publisher:Elsevier
 }
 
 @article{Ke2021pattern,
-  title           = {Pattern Matching Based on Object Graphs},
   author          = {Ke, Wei and Chan, Ka-Hou},
+  year            = {2021},
+  title           = {Pattern Matching Based on Object Graphs},
   journal         = {IEEE Access},
   volume          = {9},
   pages           = {159313--159325},
-  year            = {2021},
   publisher       = {IEEE}
 }
 
 @inproceedings{Keuchel2013,
   author          = {Keuchel, Steven and Schrijvers, Tom},
-  title           = {Generic Datatypes \`{a} La Carte},
   year            = {2013},
+  title           = {Generic Datatypes \`{a} La Carte},
   isbn            = {9781450323895},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York},
   url             = {https://doi.org/10.1145/2502488.2502491},
   doi             = {10.1145/2502488.2502491},
@@ -1343,11 +1362,11 @@
 }
 
 @inproceedings{Koopman2014church,
-  title           = {Church encoding of data types considered harmful for implementations: functional pearl},
   author          = {Koopman, Pieter and Plasmeijer, Rinus and Jansen, Jan Martin},
+  year            = {2014},
+  title           = {Church encoding of data types considered harmful for implementations: functional pearl},
   booktitle       = {Proceedings of the 26nd 2014 International Symposium on Implementation and Application of Functional Languages},
-  pages           = {1--12},
-  year            = {2014}
+  pages           = {1--12}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1358,9 +1377,9 @@
 
 @inproceedings{Launchbury1993,
   author          = {Launchbury, John},
-  title           = {A Natural Semantics for Lazy Evaluation},
   year            = {1993},
-  publisher       = {Association for Computing Machinery},
+  title           = {A Natural Semantics for Lazy Evaluation},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   doi             = {10.1145/158511.158618},
   booktitle       = {Proceedings of the 20th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
@@ -1372,47 +1391,48 @@
 
 @article{LovasCrary2006,
   author          = {William Lovas and Karl Crary},
+  year            = {2006},
   title           = {Structural Normalization for Classical Natural Deduction},
-  journal         = {Draft},
-  year            = {2006}
+  journal         = {Draft}
 }
 
 @inproceedings{Laforgue2017,
   author          = {Laforgue, Paul and R{\'e}gis-Gianas, Yann},
+  year            = {2017},
   title           = {Copattern Matching and First-class Observations in OCaml, with a Macro},
   booktitle       = {Proceedings of the 19th International Symposium on Principles and Practice of Declarative Programming},
   series          = {PPDP '17},
-  year            = {2017},
-  publisher       = {ACM},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA}
 }
 
 @inproceedings{Laemmel2008expr,
   author          = {L{\"a}mmel, Ralf and Rypacek, Ondrej},
+  year            = {2008},
   title           = {{The Expression Lemma}},
   booktitle       = {Proceedings of the Conference on Mathematics of Program Construction},
-  year            = {2008},
   month           = {7},
-  publisher       = {Springer LNCS 5133}
+  publisher       = publisher:Springer
 }
 
 @article{LeFessant2001,
-  title           = {Optimizing pattern matching},
   author          = {Le Fessant, Fabrice and Maranget, Luc},
+  year            = {2001},
+  title           = {Optimizing pattern matching},
   journal         = {ACM SIGPLAN Notices},
   volume          = {36},
   number          = {10},
   pages           = {26--37},
-  year            = {2001},
-  publisher       = {ACM New York, NY, USA}
+  publisher       = publisher:ACM,
+  address         = {New York, NY, USA}
 }
 
 @article{Lubin2021,
   author          = {Lubin, Justin and Chasins, Sarah E.},
-  title           = {How Statically-Typed Functional Programmers Write Code},
   year            = {2021},
+  title           = {How Statically-Typed Functional Programmers Write Code},
   issue_date      = {October 2021},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   volume          = {5},
   number          = {OOPSLA},
@@ -1425,22 +1445,22 @@
 }
 
 @article{Lukaszewicz1988considerations,
-  title           = {Considerations on default logic: an alternative approach 1},
   author          = {{\L}ukaszewicz, Witold},
+  year            = {1988},
+  title           = {Considerations on default logic: an alternative approach 1},
   journal         = {Computational Intelligence},
   volume          = {4},
   number          = {1},
   pages           = {1--16},
-  year            = {1988},
   publisher       = {Wiley Online Library}
 }
 
 @inproceedings{Lindley2013Hasochism,
   author          = {Lindley, Sam and McBride, Conor},
-  title           = {Hasochism: The Pleasure and Pain of Dependently Typed Haskell Programming},
   year            = {2013},
+  title           = {Hasochism: The Pleasure and Pain of Dependently Typed Haskell Programming},
   isbn            = {9781450323833},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York},
   url             = {https://doi.org/10.1145/2503778.2503786},
   doi             = {10.1145/2503778.2503786},
@@ -1458,98 +1478,100 @@
 
 @inproceedings{MunchMaccagnoni2009,
   author          = {Munch-Maccagnoni, Guillaume},
+  year            = {2009},
   title           = {Focalisation and Classical Realisability},
   url             = {https://doi.org/10.1007/978-3-642-04027-6_30},
-  bookTitle       = {Computer Science Logic: 23rd international Workshop, {CSL} 2009, 18th Annual Conference of the {EACSL}},
+  booktitle       = {Computer Science Logic: 23rd international Workshop, {CSL} 2009, 18th Annual Conference of the {EACSL}},
   series          = {CSL '09},
   location        = {Coimbra, Portugal},
   month           = sep,
-  year            = 2009,
   editor          = {Gr{\"a}del, Erich and Kahle, Reinhard},
-  publisher       = {Springer},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg},
   pages           = {409--423}
 }
 
 @article{Maranget1992,
-  title           = {Compiling lazy pattern matching},
   author          = {Maranget, Luc},
+  year            = {1992},
+  title           = {Compiling lazy pattern matching},
   journal         = {ACM SIGPLAN Lisp Pointers},
   number          = {1},
   pages           = {21--31},
-  year            = {1992},
-  publisher       = {ACM New York, NY, USA}
+  publisher       = publisher:ACM,
+  address         = {New York, NY, USA}
 }
 
 @phdthesis{Maranget1994,
-  title           = {Two techniques for compiling lazy pattern matching},
   author          = {Maranget, Luc},
   year            = {1994},
+  title           = {Two techniques for compiling lazy pattern matching},
   school          = {INRIA}
 }
 
 @article{Maranget2007,
-  title           = {Warnings for pattern matching},
   author          = {Maranget, Luc},
+  year            = {2007},
+  title           = {Warnings for pattern matching},
   journal         = {Journal of Functional Programming},
   volume          = {17},
   number          = {3},
   pages           = {387--421},
-  year            = {2007},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 @inproceedings{Maranget2008,
-  title           = {Compiling pattern matching to good decision trees},
   author          = {Maranget, Luc},
+  year            = {2008},
+  title           = {Compiling pattern matching to good decision trees},
   booktitle       = {Proceedings of the 2008 ACM SIGPLAN workshop on ML},
-  pages           = {35--46},
-  year            = {2008}
+  pages           = {35--46}
 }
 
 @inproceedings{Ma2004,
-  title           = {Compiling pattern matching in join-patterns},
   author          = {Ma, Qin and Maranget, Luc},
+  year            = {2004},
+  title           = {Compiling pattern matching in join-patterns},
   booktitle       = {CONCUR 2004-Concurrency Theory: 15th International Conference, London, UK, August 31-September 3, 2004. Proceedings 15},
   pages           = {417--431},
-  year            = {2004},
-  organization    = {Springer}
+  organization    = publisher:Springer
 }
 
 @book{MartinLoef1984intuitionistic,
-  title={Intuitionistic type theory},
-  author={Martin-L{\"o}f, Per and Sambin, Giovanni},
-  volume={9},
-  year={1984},
-  publisher={Bibliopolis Naples}
+  author          = {Martin-L{\"o}f, Per and Sambin, Giovanni},
+  year            = {1984},
+  title           = {Intuitionistic type theory},
+  volume          = {9},
+  publisher       = {Bibliopolis Naples}
 }
 
 @article{MartinLoef1996meanings,
-  title           = {On the meanings of the logical constants and the justifications of the logical laws},
   author          = {Martin-L{\"o}f, Per},
+  year            = {1996},
+  title           = {On the meanings of the logical constants and the justifications of the logical laws},
   journal         = {Nordic journal of philosophical logic},
   volume          = {1},
   number          = {1},
   pages           = {11--60},
-  year            = {1996}
 }
 
 @article{MacQueen2020history,
-  title           = {The history of Standard ML},
   author          = {MacQueen, David and Harper, Robert and Reppy, John},
+  year            = {2020},
+  title           = {The history of Standard ML},
   journal         = {Proceedings of the ACM on Programming Languages},
   volume          = {4},
   number          = {HOPL},
   pages           = {1--100},
-  year            = {2020},
-  publisher       = {ACM New York, NY, USA}
+  publisher       = publisher:ACM,
+  address         = {New York, NY, USA}
 }
 
 @mastersthesis{Molitor2015,
   author          = {Molitor, Richard},
+  year            = {2015},
   title           = {Open Inductive Predicates},
-  school          = {Karlsruher Institut für Technologie (KIT)},
-  year            = {2015}
+  school          = {Karlsruher Institut für Technologie (KIT)}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1560,31 +1582,31 @@
 
 @article{Negri2002,
   author          = {Sara Negri},
+  year            = {2002},
   title           = {Varieties of Linear Calculi},
   url             = {https://doi.org/10.1023/A:1021264102972},
   journal         = {J. Philos. Log.},
   volume          = {31},
   number          = {6},
-  pages           = {569--590},
-  year            = {2002}
+  pages           = {569--590}
 }
 
 
 @book{Negri2001structural,
-  title           = {Structural Proof Theory},
   author          = {Negri, Sara and Von Plato, Jan},
-  url             = {https://doi.org/10.1017/CBO9780511527340},
   year            = {2001},
-  publisher       = {Cambridge University Press}
+  title           = {Structural Proof Theory},
+  url             = {https://doi.org/10.1017/CBO9780511527340},
+  publisher       = publisher:CUP
 }
 
 @inproceedings{Nakazawa2014,
   author          = {Nakazawa, Koji and Nagai, Tomoharu},
-  editor          = {Dowek, Gilles},
+  year            = {2014},
   title           = {Reduction System for Extensional Lambda-mu Calculus},
+  editor          = {Dowek, Gilles},
   url             = {https://doi.org/10.1007/978-3-319-08918-8_24},
   booktitle       = {Rewriting and Typed Lambda Calculi},
-  year            = {2014},
   publisher       = {Springer International Publishing},
   address         = {Cham},
   pages           = {349--363}
@@ -1592,9 +1614,9 @@
 
 @inproceedings{Nakano2000RecursionModality,
   author          = {Nakano, Hiroshi},
-  booktitle       = {Proceedings of the Symposium on Logic in Computer Science},
-  title           = {A Modality for Recursion},
   year            = {2000},
+  title           = {A Modality for Recursion},
+  booktitle       = {Proceedings of the Symposium on Logic in Computer Science},
   pages           = {255--266},
   doi             = {10.1109/LICS.2000.855774},
   url             = {https://doi.org/10.1109/LICS.2000.855774},
@@ -1608,33 +1630,33 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @inproceedings{Ostermann2018dualizing,
-  title           = {Dualizing Generalized Algebraic Data Types by Matrix Transposition},
   author          = {Ostermann, Klaus and Jabs, Julian},
+  year            = {2018},
+  title           = {Dualizing Generalized Algebraic Data Types by Matrix Transposition},
   booktitle       = {European Symposium on Programming},
   url             = {https://doi.org/10.1007/978-3-319-89884-1_3},
   pages           = {60--85},
-  year            = {2018},
   organization    = {Springer}
 }
 
 @inproceedings{Oliveira2012,
   author          = {Oliveira, Bruno C. d. S. and Cook, William R.},
+  year            = {2012},
   title           = {Extensibility for the Masses: Practical Extensibility with Object Algebras},
   booktitle       = {Proceedings of the 26th European Conference on Object-Oriented Programming},
   series          = {ECOOP'12},
-  year            = {2012},
   pages           = {2--27},
   numpages        = {26},
-  publisher       = {Springer-Verlag},
+  publisher       = publisher:Springer,
   address         = {Berlin, Heidelberg}
 }
 
 @inproceedings{Oliveira2016,
   author          = {Oliveira, Bruno C. d. S. and Shi, Zhiyuan and Alpuim, Jo\~{a}o},
-  title           = {Disjoint Intersection Types},
   year            = {2016},
+  title           = {Disjoint Intersection Types},
   isbn            = {9781450342193},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/2951913.2951945},
   doi             = {10.1145/2951913.2951945},
@@ -1647,8 +1669,8 @@
 
 @article{Oliveira2020,
   author          = {Zhang, Weixin and Oliveira, Bruno C. d. S.},
-  title           = {Pattern Matching in an Open World},
   year            = {2020},
+  title           = {Pattern Matching in an Open World},
   issue_date      = {September 2018},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -1665,10 +1687,10 @@
 }
 
 @article{Oury2008coinductive,
-  title           = {Coinductive types and type preservation},
   author          = {Oury, Nicolas},
-  journal         = {Message on the coq-club mailing list},
-  year            = {2008}
+  year            = {2008},
+  title           = {Coinductive types and type preservation},
+  journal         = {Message on the coq-club mailing list}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1678,54 +1700,54 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @book{Pierce2002TAPL,
-  title           = {Types and Programming Languages},
   author          = {Pierce, Benjamin C.},
   year            = {2002},
-  publisher       = {MIT Press}
+  title           = {Types and Programming Languages},
+  publisher       = publisher:MIT
 }
 
 @article{Parreaux2020simple,
-  title           = {The simple essence of algebraic subtyping: principal type inference with subtyping made easy (functional pearl)},
   author          = {Parreaux, Lionel},
+  year            = {2020},
+  title           = {The simple essence of algebraic subtyping: principal type inference with subtyping made easy (functional pearl)},
   journal         = {Proceedings of the ACM on Programming Languages},
   volume          = {4},
   number          = {ICFP},
   pages           = {1--28},
-  year            = {2020},
   publisher       = {ACM New York, NY, USA}
 }
 
 @article{Parreaux2022mlstruct,
-  title           = {MLstruct: principal type inference in a Boolean algebra of structural types},
   author          = {Parreaux, Lionel and Chau, Chun Yin},
+  year            = {2022},
+  title           = {MLstruct: principal type inference in a Boolean algebra of structural types},
   journal         = {Proceedings of the ACM on Programming Languages},
   volume          = {6},
   number          = {OOPSLA2},
   pages           = {449--478},
-  year            = {2022},
   publisher       = {ACM New York, NY, USA}
 }
 
 @inproceedings{Parreaux2022ultimate,
-  title           = {The Ultimate Conditional Syntax},
   author          = {Parreaux, Lionel},
-  booktitle       = {ML Family Workshop},
-  year            = {2022}
+  year            = {2022},
+  title           = {The Ultimate Conditional Syntax},
+  booktitle       = {ML Family Workshop}
 }
 
 @book{Prawitz1965,
   author          = {Dag Prawitz},
 	year            = {1965},
+  title           = {Natural Deduction: A Proof-Theoretical Study},
 	publisher       = {Stockholm, Göteborg, Uppsala: Almqvist \& Wiksell},
-	title           = {Natural Deduction: A Proof-Theoretical Study}
 }
 
 @inbook{Prawitz2015,
   author          = {Prawitz, Dag},
-  editor          = {Wansing, Heinrich},
-  title           = {Explaining Deductive Inference},
-  bookTitle       = {Dag Prawitz on Proofs and Meaning},
   year            = {2015},
+  title           = {Explaining Deductive Inference},
+  editor          = {Wansing, Heinrich},
+  bookTitle       = {Dag Prawitz on Proofs and Meaning},
   publisher       = {Springer International Publishing},
   address         = {Cham},
   pages           = {65--100},
@@ -1735,63 +1757,62 @@
 }
 
 @inproceedings{Parigot1992freededuction,
-  author          = "Parigot, Michel",
-  editor          = "Voronkov, A.",
-  title           = "Free deduction: An analysis of ``Computations'' in classical logic",
+  author          = {Parigot, Michel},
+  year            = {1992},
+  title           = {Free deduction: An analysis of ``Computations'' in classical logic},
+  editor          = {Voronkov, A.},
   url             = {https://doi.org/10.1007/3-540-55460-2_27},
-  booktitle       = "Logic Programming",
-  year            = "1992",
-  publisher       = "Springer Berlin Heidelberg",
-  address         = "Berlin, Heidelberg",
-  pages           = "361--380"
+  booktitle       = {Logic Programming},
+  publisher       = {Springer Berlin Heidelberg},
+  address         = {Berlin, Heidelberg},
+  pages           = {361--380}
 }
-
-@inproceedings{Pickering2016,
-  title           = {Pattern synonyms},
-  author          = {Pickering, Matthew and {\'E}rdi, Gerg{\H{o}} and Peyton Jones, Simon and Eisenberg, Richard A},
-  booktitle       = {Proceedings of the 9th International Symposium on Haskell},
-  pages           = {80--91},
-  year            = {2016}
-}
-
 
 @inproceedings{Parigot1992,
   author          = {Parigot, Michel},
-  editor          = {Voronkov, Andrei},
-  title           = {$\lambda$$\mu$-Calculus: An algorithmic interpretation of classical natural deduction},
-  booktitle       = {Logic Programming and Automated Reasoning},
   year            = {1992},
+  title           = {$\lambda$$\mu$-Calculus: An algorithmic interpretation of classical natural deduction},
+  editor          = {Voronkov, Andrei},
+  booktitle       = {Logic Programming and Automated Reasoning},
   publisher       = {Springer},
   address         = {Berlin, Heidelberg},
   pages           = {190--201}
 }
 
+@inproceedings{Pickering2016,
+  author          = {Pickering, Matthew and {\'E}rdi, Gerg{\H{o}} and Peyton Jones, Simon and Eisenberg, Richard A},
+  year            = {2016},
+  title           = {Pattern synonyms},
+  booktitle       = {Proceedings of the 9th International Symposium on Haskell},
+  pages           = {80--91}
+}
+
 @article{Plotkin1975,
   author          = {Gordon D. Plotkin},
+  year            = {1975},
   title           = {Call-By-Name, Call-By-Value and the {$\lambda$}-Calculus},
   journal         = {Theoretical Computer Science},
   url             = {https://doi.org/10.1016/0304-3975(75)90017-1},
   volume          = {1},
   issue           = {2},
   pages           = {125--159},
-  year            = {1975},
   publisher       = {North-Holland Publishing Company},
 }
 
 @inproceedings{Plotkin1994Subtyping,
-  title           = {Subtyping and parametricity},
   author          = {Plotkin, Gordon and Abadi, Mart{\'\i}n and Cardelli, Luca},
+  year            = {1994},
+  title           = {Subtyping and parametricity},
   booktitle       = {Proceedings Ninth Annual IEEE Symposium on Logic in Computer Science},
   pages           = {310--319},
-  year            = {1994},
   organization    = {IEEE}
 }
 
 @article{Pottier2006polymorphic,
   author          = {Pottier, Fran\c{c}ois and Gauthier, Nadji},
+  year            = {2006},
   title           = {Polymorphic Typed Defunctionalization and Concretization},
   journal         = {Higher-Order and Symbolic Computation},
-  year            = {2006},
   volume          = {19},
   number          = {1},
   pages           = {125--162},
@@ -1803,8 +1824,8 @@
 
 @inproceedings{Puel1990,
   author          = {Puel, Laurence and Suarez, Ascander},
-  title           = {Compiling Pattern Matching by Term Decomposition},
   year            = {1990},
+  title           = {Compiling Pattern Matching by Term Decomposition},
   isbn            = {089791368X},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -1818,11 +1839,11 @@
 }
 
 @book{PeytonJones1987,
+  author          = {Peyton Jones, Simon Loftus},
+  year            = {1987},
   title           = {The implementation of functional programming languages},
   series          = {Prentice-Hall International Series in Computer Science},
   editor          = {Hoare, C.A.R},
-  author          = {Peyton Jones, Simon Loftus},
-  year            = {1987},
   publisher       = {Prentice Hall}
 }
 
@@ -1840,9 +1861,9 @@
 
 @inproceedings{Reynolds1975user,
   author          = {Reynolds, John C.},
+  year            = {1975},
   title           = {User-defined types and procedural data structures as complementary approaches to data abstraction},
   booktitle       = {New Directions in Algorithmic Languages 1975},
-  year            = {1975},
   editor          = {Schuman, Stephen},
   pages           = {157--168},
   address         = {Rocquencourt, France},
@@ -1855,10 +1876,10 @@
 
 @inproceedings{Reynolds1972definitional,
   author          = {Reynolds, John Charles},
+  year            = {1972},
   title           = {Definitional interpreters for higher-order programming languages},
   booktitle       = {ACMConf},
   url             = {https://doi.org/10.1145/800194.805852},
-  year            = {1972},
   pages           = {717--740},
   location        = {Boston},
   publisher       = {Association for Computing Machinery},
@@ -1867,17 +1888,17 @@
 
 @article{Rauszer1974,
   author          = {Rauszer, Cecylia},
+  year            = {1974},
   title           = {A formalization of the propositional calculus of {H-B} logic},
   journal         = {Studia Logica},
   volume          = {33},
-  pages           = {23--34},
-  year            = {1974}
+  pages           = {23--34}
 }
 
 @inproceedings{Rendel2015,
   author          = {Rendel, Tillmann and Trieflinger, Julia and Ostermann, Klaus},
-  title           = {Automatic Refunctionalization to a Language with Copattern Matching: With Applications to the Expression Problem},
   year            = {2015},
+  title           = {Automatic Refunctionalization to a Language with Copattern Matching: With Applications to the Expression Problem},
   isbn            = {9781450336697},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -1891,43 +1912,42 @@
 }
 
 @article{Reiter1980logic,
-  title           = {A logic for default reasoning},
   author          = {Reiter, Raymond},
+  year            = {1980},
+  title           = {A logic for default reasoning},
   journal         = {Artificial Intelligence},
   volume          = {13},
   number          = {1-2},
   pages           = {81--132},
-  year            = {1980},
   publisher       = {Elsevier}
 }
 
 @book{Russell1910,
   author          = {Whitehead, Alfred North and Russell, Bertrand},
+  year            = {1910},
+  title           = {Principia Mathematica},
   publisher       = {Cambridge University Press},
   address         = {Cambridge},
-  volume          = {1},
-  title           = {Principia Mathematica},
-  year            = {1910}
+  volume          = {1}
 }
 
 @book{Russell1912,
   author          = {Whitehead, Alfred North and Russell, Bertrand},
+  year            = {1912},
+  title           = {Principia Mathematica},
   publisher       = {Cambridge University Press},
   address         = {Cambridge},
-  volume          = {2},
-  title           = {Principia Mathematica},
-  year            = {1912}
+  volume          = {2}
 }
 
 @book{Russell1913,
   author          = {Whitehead, Alfred North and Russell, Bertrand},
+  year            = {1913},
+  title           = {Principia Mathematica},
   publisher       = {Cambridge University Press},
   address         = {Cambridge},
-  volume          = {3},
-  title           = {Principia Mathematica},
-  year            = {1913}
+  volume          = {3}
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1937,18 +1957,18 @@
 
 @mastersthesis{Servadei2017,
   author          = {Giacomo Servadei},
+  year            = {2017},
   title           = {Toward a more expressive pattern matching in Haskell},
   school          = {Politecnico di Milano},
-  year            = {2017}
 }
 
 @inproceedings{Sestoft1996,
-  title           = {ML pattern match compilation and partial evaluation},
   author          = {Sestoft, Peter},
+  year            = {1996},
+  title           = {ML pattern match compilation and partial evaluation},
   booktitle       = {Dagstuhl Seminar on Partial Evaluation},
   volume          = {1110},
-  pages           = {446--464},
-  year            = {1996}
+  pages           = {446--464}
 }
 
 @article{Sestoft2001,
@@ -1964,8 +1984,8 @@
 
 @inproceedings{ShiversFisher2004MultiReturn,
   author          = {Shivers, Olin and Fisher, David},
-  title           = {Multi-Return Function Call},
   year            = {2004},
+  title           = {Multi-Return Function Call},
   url             = {https://doi.org/10.1145/1016848.1016864},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -1977,26 +1997,26 @@
 
 @incollection{SchroederHeister2018SEP,
 	author          =	{Schroeder-Heister, Peter},
+	year            =	{2018},
 	title           =	{{Proof-Theoretic Semantics}},
 	booktitle       =	{The {Stanford} Encyclopedia of Philosophy},
 	editor          =	{Edward N. Zalta},
 	howpublished    =	{\url{https://plato.stanford.edu/archives/spr2018/entries/proof-theoretic-semantics/}},
-	year            =	{2018},
 	edition         =	{{S}pring 2018},
 	publisher       =	{Metaphysics Research Lab, Stanford University}
 }
 
 @unpublished{Spiwack2014,
   author          = {Arnaud Spiwack},
-  title           = {A Dissection of L},
   year            = {2014},
+  title           = {A Dissection of L},
   note            = "Unpublished draft",
 }
 
 @inproceedings{Saurin2005LambdaMuSeparation,
   author          = {Saurin, Alexis},
-  title           = {Separation with Streams in the $\lambda\mu$-calculus},
   year            = {2005},
+  title           = {Separation with Streams in the $\lambda\mu$-calculus},
   url             = {https://doi.org/10.1109/LICS.2005.48},
   publisher       = {IEEE Computer Society},
   address         = {USA},
@@ -2008,37 +2028,37 @@
 
 @book{SorensenUrzyczyn2006,
   author          = {Morten Heine Sørensen and Pawe{\l} Urzyczyn},
+  year            = {2006},
   title           = {{Lectures on the Curry-Howard Isomorphism}},
   series          = {Studies in Logic and the Foundations of Mathematics},
   volume          = {149},
   publisher       = {Elsevier},
-  year            = {2006}
 }
 
 @article{Scott2000,
-  title           = {When do match-compilation heuristics matter},
   author          = {Scott, Kevin and Ramsey, Norman},
+  year            = {2000},
+  title           = {When do match-compilation heuristics matter},
   journal         = {University of Virginia, Charlottesville, VA},
-  year            = {2000}
 }
 
 @article{Schnoebelen1988,
+  author          = {Ph. Schnoebelen},
+  year            = {1988},
   title           = {Refined compiliation of pattern-matching for functional languages},
   journal         = {Science of Computer Programming},
   volume          = {11},
   number          = {2},
   pages           = {133-159},
-  year            = {1988},
   issn            = {0167-6423},
   doi             = {https://doi.org/10.1016/0167-6423(88)90002-0},
   url             = {https://www.sciencedirect.com/science/article/pii/0167642388900020},
-  author          = {Ph. Schnoebelen},
 }
 
 @inproceedings{Syme2007,
   author          = {Syme, Don and Neverov, Gregory and Margetson, James},
-  title           = {Extensible Pattern Matching via a Lightweight Language Extension},
   year            = {2007},
+  title           = {Extensible Pattern Matching via a Lightweight Language Extension},
   isbn            = {9781595938152},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -2053,8 +2073,8 @@
 
 @inproceedings{Smits2022, 
   author          = {Smits, Jeff and Hartman, Toine and Cockx, Jesper},
-  title           = {Optimising First-Class Pattern Matching},
   year            = {2022},
+  title           = {Optimising First-Class Pattern Matching},
   isbn            = {9781450399197},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -2069,8 +2089,8 @@
 
 @inproceedings{Sabry1992,
   author          = {Sabry, Amr and Felleisen, Matthias},
-  title           = {Reasoning about Programs in Continuation-Passing Style.},
   year            = {1992},
+  title           = {Reasoning about Programs in Continuation-Passing Style.},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
   booktitle       = {Proceedings of the 1992 ACM Conference on LISP and Functional Programming},
@@ -2082,9 +2102,9 @@
 
 @article{Swierstra2008data,
   author          = {Swierstra, Wouter},
+  year            = {2008},
   title           = {Data types {\`a} la carte},
   journal         = {Journal of Functional Programming},
-  year            = {2008},
   volume          = {18},
   number          = {4},
   pages           = {423--436},
@@ -2093,12 +2113,12 @@
 }
 
 @inproceedings{Setzer2003java,
-  title           = {Java as a Functional Programming Language},
   author          = {Setzer, Anton},
+  year            = {2003},
+  title           = {Java as a Functional Programming Language},
   editor          = {Geuvers, Herman and Wiedijk, Freek},
   booktitle       = {Types for Proofs and Programs},
   pages           = {279--298},
-  year            = {2003},
   organization    = {Springer},
   address         = {Berlin, Heidelberg},
   url             = {https://doi.org/10.1007/3-540-39185-1_16},
@@ -2106,30 +2126,30 @@
 }
 
 @article{Setzer2004proof,
-  title           = {Proof Theory of Martin-L{\"o}f Type Theory. An overview},
   author          = {Setzer, Anton},
+  year            = {2004},
+  title           = {Proof Theory of Martin-L{\"o}f Type Theory. An overview},
   journal         = {Math{\'e}matiques et sciences humaines. Mathematics and social sciences},
   number          = {165},
-  year            = {2004},
   publisher       = {Centre d’analyse et de math{\'e}matique sociales de l’EHESS}
 }
 
 @article{Setzer2006object,
-  title           = {Object-oriented programming in dependent type theory},
   author          = {Setzer, Anton},
+  year            = {2006},
+  title           = {Object-oriented programming in dependent type theory},
   journal         = {Trends in Functional Programming},
   editor          = {Nilsson, Henrik},
   volume          = {7},
-  pages           = {91--108},
-  year            = {2006}
+  pages           = {91--108}
 }
 
 @incollection{Setzer2012coalgebras,
-  title           = {Coalgebras as Types Determined by Their Elimination Rules},
   author          = {Setzer, Anton},
+  year            = {2012},
+  title           = {Coalgebras as Types Determined by Their Elimination Rules},
   booktitle       = {Epistemology versus Ontology. Essays on the Philosophy and Foundations of Mathematics in Honour of Per Martin-Löf},
   pages           = {351--369},
-  year            = {2012},
   series          = {Logic, Epistemology, and the Unity of Science},
   volume          = {27},
   editor          = {Dybjer, Peter and Lindström, Sten and Palmgren, Erik and Sundholm, Göran},
@@ -2141,10 +2161,10 @@
 
 @inproceedings{Setzer2014unnesting,
   author          = {Setzer, Anton and Abel, Andreas and Pientka, Brigitte and Thibodeau, David},
+  year            = {2014},
   title           = {Unnesting of copatterns},
   booktitle       = {Proceedings of the Joint Conference on Rewriting Techniques and Applications and Typed Lambda Calculi and Applications},
   publisher       = {Springer LNCS 8560},
-  year            = {2014},
   editor          = {Dowek, Gilles},
   pages           = {31-45},
   isbn            = {978-3-319-08917-1},
@@ -2152,8 +2172,8 @@
 
 @inproceedings{Schwaab2013,
   author          = {Schwaab, Christopher and Siek, Jeremy G.},
-  title           = {Modular Type-Safety Proofs in Agda},
   year            = {2013},
+  title           = {Modular Type-Safety Proofs in Agda},
   isbn            = {9781450318600},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -2167,9 +2187,9 @@
 }
 
 @phdthesis{Streicher1993investigations,
-  title           = {Investigations into intensional type theory},
   author          = {Streicher, Thomas},
   year            = {1993},
+  title           = {Investigations into intensional type theory},
   school          = {Habilitationsschrift, Ludwig-Maximilians-Universit{\"a}t M{\"u}nchen}
 }
 
@@ -2181,66 +2201,66 @@
 
 @article{Tranchini2012,
   author          = {Luca Tranchini},
+  year            = {2012},
   title           = {Natural Deduction for Dual-intuitionistic Logic},
   journal         = {Studia Logica},
   volume          = {100},
   number          = {3},
   pages           = {631--648},
-  year            = {2012},
   url             = {https://doi.org/10.1007/s11225-012-9417-8},
 }
 
 @book{TroelstraSchwichtenberg2000,
   author          = {Troelstra, Anne Sjerp and Schwichtenberg, Helmut},
-  publisher       = {Cambridge University Press},
+  year            = {2000},
   title           = {Basic Proof Theory, Second Edition},
-  year            = {2000}
+  publisher       = {Cambridge University Press}
 }
 
 @inproceedings{Turner1995,
-  title           = {Elementary strong functional programming},
   author          = {Turner, David A},
+  year            = {1995},
+  title           = {Elementary strong functional programming},
   booktitle       = {International Symposium on Functional Programming Languages in Education},
   pages           = {1--13},
-  year            = {1995},
   organization    = {Springer}
 }
 
 @article{Turner2004,
-  title           = {Total Functional Programming.},
   author          = {Turner, David A},
+  year            = {2004},
+  title           = {Total Functional Programming.},
   journal         = {J. Univers. Comput. Sci.},
   volume          = {10},
   number          = {7},
   pages           = {751--768},
-  year            = {2004}
 }
 
 @misc{TobinHochstadt2011,
+  author          = {Tobin-Hochstadt, Sam},
+  year            = {2011},
+  title           = {Extensible Pattern Matching in an Extensible Language},
   doi             = {10.48550/ARXIV.1106.2578},
   url             = {https://arxiv.org/abs/1106.2578},
-  author          = {Tobin-Hochstadt, Sam},
-  title           = {Extensible Pattern Matching in an Extensible Language},
   publisher       = {arXiv},
-  year            = {2011},
   copyright       = {arXiv.org perpetual, non-exclusive license}
 }
 
 @article{Tennant1982proof,
-  title           = {Proof and paradox},
   author          = {Tennant, Neil},
+  year            = {1982},
+  title           = {Proof and paradox},
   journal         = {Dialectica},
   pages           = {265--296},
-  year            = {1982},
   publisher       = {JSTOR}
 }
 
 @inproceedings{Thibodeau2016,
   author          = {Thibodeau, David and Cave, Andrew and Pientka, Brigitte},
+  year            = {2016},
   title           = {Indexed codata types},
   booktitle       = {Proceedings of the International Conference on Functional Programming},
   series          = {ICFP 2016},
-  year            = {2016},
   isbn            = {978-1-4503-4219-3},
   location        = {Nara, Japan},
   pages           = {351--363},
@@ -2272,8 +2292,8 @@
 
 @inproceedings{Wadler1987views,
   author          = {Wadler, Philip},
-  title           = {Views: A Way for Pattern Matching to Cohabit with Data Abstraction},
   year            = {1987},
+  title           = {Views: A Way for Pattern Matching to Cohabit with Data Abstraction},
   isbn            = {0897912152},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -2288,36 +2308,36 @@
 
 @inproceedings{Wadler1990lineartypes,
   author          = {Wadler, Philip},
+  year            = {1990},
   title           = {Linear Types Can Change the World!},
   booktitle       = {Programming Concepts and Methods},
-  year            = {1990},
   publisher       = {North-Holland}
 }
 
 @article{Wadler1994syntax,
-  title           = {A syntax for linear logic},
   author          = {Wadler, Philip},
+  year            = {1994},
+  title           = {A syntax for linear logic},
   journal         = {Lecture Notes in Computer Science},
   volume          = {802},
   pages           = {513--529},
-  year            = {1994},
   publisher       = {Berlin: Springer-Verlag, 1973-}
 }
 
 @unpublished{Wadler1998expression,
   author          = {Wadler, Philip},
+  year            = {1998},
   title           = {The Expression Problem},
   note            = {Note to Java Genericity mailing list},
-  month           = {11},
-  year            = {1998}
+  month           = {11}
 }
 
 @inproceedings{Wadler2003call,
   author          = {Wadler, Philip},
+  year            = {2003},
   title           = {Call-by-value is dual to call-by-name},
   booktitle       = {Proceedings of the Eighth ACM SIGPLAN International Conference on Functional Programming},
   series          = {ICFP '03},
-  year            = {2003},
   isbn            = {1-58113-756-7},
   location        = {Uppsala, Sweden},
   pages           = {189--201},
@@ -2330,32 +2350,32 @@
 
 @inproceedings{Wadler2005,
   author          = {Wadler, Philip},
-  editor          = {J{\"{u}}rgen Giesl},
+  year            = {2005},
   title           = {Call-by-Value Is Dual to Call-by-Name - Reloaded},
+  editor          = {J{\"{u}}rgen Giesl},
   booktitle       = {Term Rewriting and Applications, 16th International Conference, {RTA} 2005, Nara, Japan, April 19-21, 2005, Proceedings},
   series          = {Lecture Notes in Computer Science},
   volume          = {3467},
   url             = {https://doi.org/10.1007/978-3-540-32033-3_15},
   pages           = {185--203},
-  publisher       = {Springer},
-  year            = {2005}
+  publisher       = {Springer}
 }
 
 @article{Wadler2014Sessions,
   author          = {Wadler, Philip},
+  year            = {2014},
   title           = {Propositions as sessions},
   journal         = {J. Funct. Program.},
   url             = {https://doi.org/10.1145/2398856.2364568},
   volume          = {24},
   number          = {2-3},
-  pages           = {384--418},
-  year            = {2014}
+  pages           = {384--418}
 }
 
 @article{Wadler2015Propositions,
   author          = {Wadler, Philip},
-  title           = {Propositions as Types},
   year            = {2015},
+  title           = {Propositions as Types},
   issue_date      = {December 2015},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -2371,20 +2391,20 @@
 }
 
 @article{Wand1995Strong,
-  title           = {Strong normalization with non-structural subtyping},
   author          = {Wand, Mitchell and O'Keefe, Patrick and Palsberg, Jens},
+  year            = {1995},
+  title           = {Strong normalization with non-structural subtyping},
   journal         = {Mathematical Structures in Computer Science},
   volume          = {5},
   number          = {3},
   pages           = {419--429},
-  year            = {1995},
   publisher       = {Cambridge University Press}
 }
 
 @article{Weirich2019DependentHaskellRoles,
   author          = {Weirich, Stephanie and Choudhury, Pritam and Voizard, Antoine and Eisenberg, Richard A.},
-  title           = {A Role for Dependent Types in Haskell},
   year            = {2019},
+  title           = {A Role for Dependent Types in Haskell},
   issue_date      = {August 2019},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -2400,8 +2420,8 @@
 
 @article{Weirich2017DependentHaskell,
   author          = {Weirich, Stephanie and Voizard, Antoine and de Amorim, Pedro Henrique Azevedo and Eisenberg, Richard A.},
-  title           = {A Specification for Dependent Types in Haskell},
   year            = {2017},
+  title           = {A Specification for Dependent Types in Haskell},
   issue_date      = {September 2017},
   publisher       = {Association for Computing Machinery},
   address         = {New York, NY, USA},
@@ -2415,13 +2435,13 @@
 
 @article{Wright1994Soundness,
   author          = {Wright, A.K. and Felleisen, M.},
+  year            = {1994},
   title           = {A syntactic approach to type soundness},
   journal         = {Inf. Comput.},
   issue_date      = {Nov. 15, 1994},
   volume          = {115},
   number          = {1},
   month           = {11},
-  year            = {1994},
   issn            = {0890-5401},
   pages           = {38--94},
   numpages        = {57},
@@ -2449,45 +2469,45 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @article{Zeilberger2008unity,
-  title           = {On the unity of duality},
   author          = {Zeilberger, Noam},
+  year            = {2008},
+  title           = {On the unity of duality},
   journal         = {Annals of Pure and Applied Logic},
   volume          = {153},
   number          = {1-3},
   pages           = {66--96},
   doi             = {https://doi.org/10.1016/j.apal.2008.01.001},
-  year            = {2008},
   publisher       = {Elsevier}
 }
 
 @phdthesis{Zeilberger2009,
   author          = {Zeilberger, Noam},
-  advisor         = {Pfenning, Frank and Lee, Peter},
-  title           = {The Logical Basis of Evaluation Order and Pattern-Matching},
   year            = {2009},
+  title           = {The Logical Basis of Evaluation Order and Pattern-Matching},
+  advisor         = {Pfenning, Frank and Lee, Peter},
   isbn            = {9781109163018},
   school          = {Carnegie Mellon University},
   address         = {USA}
 }
 
 @article{Zeilberger2008focusing,
-  title           = {Focusing and higher-order abstract syntax},
   author          = {Zeilberger, Noam},
+  year            = {2008},
+  title           = {Focusing and higher-order abstract syntax},
   journal         = {ACM SIGPLAN Notices},
   volume          = {43},
   number          = {1},
   pages           = {359--369},
-  year            = {2008},
   publisher       = {ACM New York, NY, USA}
 }
 
 @article{Zhang2022,
+  author          = {Zhang, Weixin and David, Cristina and Wang, Meng},
+  year            = {2022},
+  title           = {Decomposition Without Regret},
   doi             = {10.48550/ARXIV.2204.10411},
   url             = {https://arxiv.org/abs/2204.10411},
-  author          = {Zhang, Weixin and David, Cristina and Wang, Meng},
-  title           = {Decomposition Without Regret},
   publisher       = {arXiv},
-  year            = {2022},
   copyright       = {Creative Commons Attribution 4.0 International},
   journal         = {arXiv preprint arXiv:2204.10411},
 }
