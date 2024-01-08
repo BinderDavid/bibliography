@@ -17,6 +17,22 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Journals
+%%
+%% These macros are only to be used in the "journal" tag.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{ journal:JFP                   = "Journal of Functional Programming" }
+@string{ journal:JLC                   = "Journal of Logic and Computation" }
+@string{ journal:JSL                   = "Journal of Symbolic Logic" }
+@string{ journal:BSL                   = "Bulletin of Symbolic Logic" }
+@string{ journal:TCS                   = "Theoretical Computer Science" }
+@string{ journal:StudiaLogica          = "Studia Logica" }
+@string{ journal:Dialectica            = "Dialectica" }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% A
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -34,7 +50,7 @@
   year            = {1992},
   title           = {Logic Programming with Focusing Proofs in Linear Logic},
   url             = {https://doi.org/10.1093/logcom/2.3.297},
-  journal         = {Journal of Logic and Computation},
+  journal         = journal:JLC,
   volume          = {2},
   issue           = {3},
   pages           = {297--347}
@@ -84,7 +100,7 @@
   author          = {Alchourr{\'o}n, Carlos E and G{\"a}rdenfors, Peter and Makinson, David},
   year            = {1985},
   title           = {On the logic of theory change: Partial meet contraction and revision functions},
-  journal         = {The journal of symbolic logic},
+  journal         = journal:JSL,
   volume          = {50},
   number          = {2},
   pages           = {510--530},
@@ -176,7 +192,7 @@
   author          = {Burton, F Warren and Cameron, Robert D},
   year            = {1993},
   title           = {Pattern matching with abstract data types1},
-  journal         = {Journal of Functional Programming},
+  journal         = journal:JFP,
   volume          = {3},
   number          = {2},
   pages           = {171--190},
@@ -196,7 +212,7 @@
   author          = {Barendregt, Henk},
   year            = {1991},
   title           = {Introduction to generalized type systems},
-  journal         = {Journal of functional programming},
+  journal         = journal:JFP,
   volume          = {1},
   number          = {2},
   pages           = {125--154},
@@ -314,7 +330,7 @@
   year            = {2004},
   title           = {A Formulae-as-Types Interpretation of Subtractive Logic},
   url             = {https://doi.org/10.1093/logcom/14.4.529},
-  journal         = {Journal of Logic and Computation},
+  journal         = journal:JLC,
   volume          = {14},
   issue           = {4},
   pages           = {529--570}
@@ -398,7 +414,7 @@
   author          = {Cockx, Jesper and Abel, Andreas},
   year            = {2020},
   title           = {Elaborating dependent (co) pattern matching: No pattern left behind},
-  journal         = {Journal of Functional Programming},
+  journal         = journal:JFP,
   volume          = {30},
   publisher       = publisher:CUP,
   DOI             = {10.1017/S0956796819000182}
@@ -408,7 +424,7 @@
   author          = {Serenella Cerrito and Delia Kesner},
   year            = {2004},
   title           = {Pattern matching as cut elimination},
-  journal         = {Theoretical Computer Science},
+  journal         = journal:TCS,
   volume          = {323},
   number          = {1},
   pages           = {71--127},
@@ -482,7 +498,7 @@
   year            = {2018},
   title           = {A tutorial on computational classical logic and the sequent calculus},
   url             = {https://doi.org/10.1017/S0956796818000023},
-  journal         = {Journal of Functional Programming},
+  journal         = journal:JFP,
   publisher       = publisher:CUP,
   volume          = {28}
 }
@@ -704,7 +720,7 @@
   author          = {Felleisen, Matthias and Hieb, Robert},
   year            = {1992},
   title           = {The revised report on the syntactic theories of sequential control and state},
-  journal         = {Theoretical Computer Science},
+  journal         = journal:TCS,
   volume          = {103},
   number          = {2},
   pages           = {235--271},
@@ -805,7 +821,7 @@
   title           = {How to design co-programs},
   url             = {https://doi.org/10.1017/S0956796821000113},
   volume          = {31},
-  journal         = {Journal of Functional Programming},
+  journal         = journal:JFP,
   publisher       = publisher:CUP,
 }
 
@@ -1135,7 +1151,7 @@
   author          = {Ja{\'s}kowski, Stanis{\l}aw},
   year            = {1934},
   title           = {On the Rules of Suppositions in Formal Logic},
-  journal         = {Studia Logica},
+  journal         = journal:StudiaLogica,
   volume          = {1},
   pages           = {5--32},
 }
@@ -1144,7 +1160,7 @@
   author          = {Jay, Barry and Kesner, Delia},
   year            = {2009},
   title           = {First-class patterns},
-  journal         = {Journal of Functional Programming},
+  journal         = journal:JFP,
   volume          = {19},
   number          = {2},
   pages           = {191--225},
@@ -1206,7 +1222,7 @@
   volume          = {25},
   DOI             = {10.1017/bsl.2019.21},
   number          = {3},
-  journal         = {The Bulletin of Symbolic Logic},
+  journal         = journal:BSL,
   publisher       = publisher:CUP,
   author          = {Klev, Ansten},
   year            = {2019},
@@ -1513,7 +1529,7 @@
   author          = {Maranget, Luc},
   year            = {2007},
   title           = {Warnings for pattern matching},
-  journal         = {Journal of Functional Programming},
+  journal         = journal:JFP,
   volume          = {17},
   number          = {3},
   pages           = {387--421},
@@ -1747,7 +1763,7 @@
   year            = {2015},
   title           = {Explaining Deductive Inference},
   editor          = {Wansing, Heinrich},
-  bookTitle       = {Dag Prawitz on Proofs and Meaning},
+  booktitle       = {Dag Prawitz on Proofs and Meaning},
   publisher       = {Springer International Publishing},
   address         = {Cham},
   pages           = {65--100},
@@ -1791,7 +1807,7 @@
   author          = {Gordon D. Plotkin},
   year            = {1975},
   title           = {Call-By-Name, Call-By-Value and the {$\lambda$}-Calculus},
-  journal         = {Theoretical Computer Science},
+  journal         = journal:TCS,
   url             = {https://doi.org/10.1016/0304-3975(75)90017-1},
   volume          = {1},
   issue           = {2},
@@ -1890,7 +1906,7 @@
   author          = {Rauszer, Cecylia},
   year            = {1974},
   title           = {A formalization of the propositional calculus of {H-B} logic},
-  journal         = {Studia Logica},
+  journal         = journal:StudiaLogica,
   volume          = {33},
   pages           = {23--34}
 }
@@ -1926,8 +1942,7 @@
   author          = {Whitehead, Alfred North and Russell, Bertrand},
   year            = {1910},
   title           = {Principia Mathematica},
-  publisher       = {Cambridge University Press},
-  address         = {Cambridge},
+  publisher       = publisher:CUP,
   volume          = {1}
 }
 
@@ -1935,8 +1950,7 @@
   author          = {Whitehead, Alfred North and Russell, Bertrand},
   year            = {1912},
   title           = {Principia Mathematica},
-  publisher       = {Cambridge University Press},
-  address         = {Cambridge},
+  publisher       = publisher:CUP,
   volume          = {2}
 }
 
@@ -1944,8 +1958,7 @@
   author          = {Whitehead, Alfred North and Russell, Bertrand},
   year            = {1913},
   title           = {Principia Mathematica},
-  publisher       = {Cambridge University Press},
-  address         = {Cambridge},
+  publisher       = publisher:CUP,
   volume          = {3}
 }
 
@@ -1987,7 +2000,7 @@
   year            = {2004},
   title           = {Multi-Return Function Call},
   url             = {https://doi.org/10.1145/1016848.1016864},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   booktitle       = {Proceedings of the Ninth ACM SIGPLAN International Conference on Functional Programming},
   pages           = {79–89},
@@ -2060,7 +2073,7 @@
   year            = {2007},
   title           = {Extensible Pattern Matching via a Lightweight Language Extension},
   isbn            = {9781595938152},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/1291151.1291159},
   doi             = {10.1145/1291151.1291159},
@@ -2076,7 +2089,7 @@
   year            = {2022},
   title           = {Optimising First-Class Pattern Matching},
   isbn            = {9781450399197},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/3567512.3567519},
   doi             = {10.1145/3567512.3567519},
@@ -2091,7 +2104,7 @@
   author          = {Sabry, Amr and Felleisen, Matthias},
   year            = {1992},
   title           = {Reasoning about Programs in Continuation-Passing Style.},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   booktitle       = {Proceedings of the 1992 ACM Conference on LISP and Functional Programming},
   pages           = {288--298},
@@ -2104,7 +2117,7 @@
   author          = {Swierstra, Wouter},
   year            = {2008},
   title           = {Data types {\`a} la carte},
-  journal         = {Journal of Functional Programming},
+  journal         = journal:JFP,
   volume          = {18},
   number          = {4},
   pages           = {423--436},
@@ -2175,7 +2188,7 @@
   year            = {2013},
   title           = {Modular Type-Safety Proofs in Agda},
   isbn            = {9781450318600},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/2428116.2428120},
   doi             = {10.1145/2428116.2428120},
@@ -2203,7 +2216,7 @@
   author          = {Luca Tranchini},
   year            = {2012},
   title           = {Natural Deduction for Dual-intuitionistic Logic},
-  journal         = {Studia Logica},
+  journal         = journal:StudiaLogica,
   volume          = {100},
   number          = {3},
   pages           = {631--648},
@@ -2214,7 +2227,7 @@
   author          = {Troelstra, Anne Sjerp and Schwichtenberg, Helmut},
   year            = {2000},
   title           = {Basic Proof Theory, Second Edition},
-  publisher       = {Cambridge University Press}
+  publisher       = publisher:CUP
 }
 
 @inproceedings{Turner1995,
@@ -2250,7 +2263,7 @@
   author          = {Tennant, Neil},
   year            = {1982},
   title           = {Proof and paradox},
-  journal         = {Dialectica},
+  journal         = journal:Dialectica,
   pages           = {265--296},
   publisher       = {JSTOR}
 }
@@ -2295,7 +2308,7 @@
   year            = {1987},
   title           = {Views: A Way for Pattern Matching to Cohabit with Data Abstraction},
   isbn            = {0897912152},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   url             = {https://doi.org/10.1145/41625.41653},
   doi             = {10.1145/41625.41653},
@@ -2321,7 +2334,7 @@
   journal         = {Lecture Notes in Computer Science},
   volume          = {802},
   pages           = {513--529},
-  publisher       = {Berlin: Springer-Verlag, 1973-}
+  publisher       = publisher:Springer
 }
 
 @unpublished{Wadler1998expression,
@@ -2344,7 +2357,7 @@
   url             = {https://doi.org/10.1145/944705.944723},
   numpages        = {13},
   acmid           = {944723},
-  publisher       = {ACM},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
 }
 
@@ -2358,7 +2371,7 @@
   volume          = {3467},
   url             = {https://doi.org/10.1007/978-3-540-32033-3_15},
   pages           = {185--203},
-  publisher       = {Springer}
+  publisher       = publisher:Springer
 }
 
 @article{Wadler2014Sessions,
@@ -2377,7 +2390,7 @@
   year            = {2015},
   title           = {Propositions as Types},
   issue_date      = {December 2015},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   volume          = {58},
   number          = {12},
@@ -2406,7 +2419,7 @@
   year            = {2019},
   title           = {A Role for Dependent Types in Haskell},
   issue_date      = {August 2019},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   volume          = {3},
   number          = {ICFP},
@@ -2423,7 +2436,7 @@
   year            = {2017},
   title           = {A Specification for Dependent Types in Haskell},
   issue_date      = {September 2017},
-  publisher       = {Association for Computing Machinery},
+  publisher       = publisher:ACM,
   address         = {New York, NY, USA},
   volume          = {1},
   number          = {ICFP},
@@ -2498,7 +2511,8 @@
   volume          = {43},
   number          = {1},
   pages           = {359--369},
-  publisher       = {ACM New York, NY, USA}
+  publisher       = publisher:ACM,
+  address         = {New York, NY, USA}
 }
 
 @article{Zhang2022,
